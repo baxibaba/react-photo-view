@@ -1,10 +1,10 @@
 {
-  "name": "react-photo-view-example",
+  "name": "react-photo-view-js-example",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
     "@types/node": "12.12.14",
-    "react-photo-view": "link:..",
+    "react-photo-view-js": "link:..",
     "react-scripts": "3.2.0",
     "styled-components": "^4.4.1"
   },

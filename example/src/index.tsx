@@ -1,9 +1,9 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { PhotoProvider, PhotoSlider, PhotoConsumer } from 'react-photo-view';
-import { IPhotoProvider } from 'react-photo-view/dist/PhotoProvider';
-import { IPhotoConsumer } from 'react-photo-view/dist/PhotoConsumer';
-import { IPhotoSliderProps } from 'react-photo-view/dist/PhotoSlider';
+import { PhotoProvider, PhotoSlider, PhotoConsumer } from 'react-photo-view-js';
+import { IPhotoProvider } from 'react-photo-view-js/dist/PhotoProvider';
+import { IPhotoConsumer } from 'react-photo-view-js/dist/PhotoConsumer';
+import { IPhotoSliderProps } from 'react-photo-view-js/dist/PhotoSlider';
 import photo1 from './1.jpg';
 import photo2 from './2.jpg';
 import photo3 from './3.jpg';

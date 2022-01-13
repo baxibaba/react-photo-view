@@ -1,12 +1,6 @@
-# react-photo-view
+# react-photo-view-js
 
 一款精致的 `React` 的图片预览组件
-
-[![npm](https://img.shields.io/npm/v/react-photo-view.svg?style=flat-square)](https://www.npmjs.com/package/react-photo-view)
-[![react-photo-view](https://badgen.net/bundlephobia/minzip/react-photo-view)](https://github.com/MinJieLiu/react-photo-view)
-[![react-photo-view](https://badgen.net/npm/dt/react-photo-view)](https://github.com/MinJieLiu/react-photo-view)
-
-Demo: [https://minjieliu.github.io/react-photo-view](https://minjieliu.github.io/react-photo-view)
 
 ### 特性
 
@@ -22,13 +16,13 @@ Demo: [https://minjieliu.github.io/react-photo-view](https://minjieliu.github.io
 
 ## 开始使用
 
-    yarn add react-photo-view
+    yarn add react-photo-view-js
 
 基本:
 
 ```js
-import { PhotoProvider, PhotoConsumer } from 'react-photo-view';
-import 'react-photo-view/dist/index.css';
+import { PhotoProvider, PhotoConsumer } from 'react-photo-view-js';
+import 'react-photo-view-js/dist/index.css';
 
 function ImageView() {
   return (
@@ -102,7 +96,7 @@ function ImageView() {
 
 #### PhotoSlider
 
-继承自 `PhotoProvider`。手动控制 `react-photo-view` 的展现与隐藏
+继承自 `PhotoProvider`。手动控制 `react-photo-view-js` 的展现与隐藏
 
 | 名称          | 类型          | 必选 | 描述         |
 | :------------ | :------------ | :--- | :----------- |
@@ -114,5 +108,5 @@ function ImageView() {
 
 ## 谁在使用
 
-<a href="http://www.saastrip.com/"><img src="https://minjieliu.github.io/assets/md-image/saastrip_logo.png" align="left" height="48" width="48" /></a>
-<a href="http://www.zhinanmao.com/"><img src="https://minjieliu.github.io/assets/md-image/zhinanmao_logo.png" align="left" height="48" width="48" /></a>
+<a href="http://www.saastrip.com/"><img src="https://baxibaba.github.io/assets/md-image/saastrip_logo.png" align="left" height="48" width="48" /></a>
+<a href="http://www.zhinanmao.com/"><img src="https://baxibaba.github.io/assets/md-image/zhinanmao_logo.png" align="left" height="48" width="48" /></a>
