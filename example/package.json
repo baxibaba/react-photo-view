@@ -1,0 +1,40 @@
+{
+  "name": "react-photo-view-example",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "12.12.14",
+    "react-photo-view": "link:..",
+    "react-scripts": "3.2.0",
+    "styled-components": "^4.4.1"
+  },
+  "scripts": {
+    "dev": "start-storybook -p 6006 -s public",
+    "build": "build-storybook -s public",
+    "deploy": "storybook-to-ghpages -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.3.4",
+    "@storybook/addon-docs": "^6.3.4",
+    "@storybook/addon-links": "^6.3.4",
+    "@storybook/addons": "^6.3.4",
+    "@storybook/preset-create-react-app": "^3.2.0",
+    "@storybook/react": "^6.3.4",
+    "@storybook/storybook-deployer": "^2.8.10"
+  }
+}
