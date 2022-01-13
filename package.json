@@ -1,10 +1,10 @@
 {
-  "name": "react-photo-view",
+  "name": "react-photo-view-js",
   "version": "1.0.0",
   "description": "一款精致的 React 的图片预览组件",
   "author": "baxibaba",
   "license": "MIT",
-  "repository": "https://github.com/baxibaba/react-photo-view.git",
+  "repository": "https://github.com/baxibaba/react-photo-view-js.git",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -13,7 +13,7 @@
     "react",
     "react-component",
     "react-photo",
-    "react-photo-view",
+    "react-photo-view-js",
     "photo",
     "photo-view",
     "gallery"
